@@ -3,8 +3,8 @@
 |---|---|---|
 | Data A1 | Data B1 | Data C1 |
 | Data A2 | Data B2 | Data C2 |
-| Header 1 | Header 2 | Header 3 |
 
+| Header 1 | Header 2 | Header 3 |
 | Data A1 | Data B1 | Data C1 |
 | Data A2 | Data B2 | Data C2 |
 ## Live Demo

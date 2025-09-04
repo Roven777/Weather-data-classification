@@ -1,7 +1,7 @@
 # Weather-data-classification
 
 ## Live Demo
-[Click here to try it out](weather-data-classificationgit-qetq5udwd2onkfd7zs6led.streamlit.app)
+[Live Demo](https://weather-data-classificationgit-qetq5udwd2onkfd7zs6led.streamlit.app)
 
 ## Features
 - Input weather parameters interactively

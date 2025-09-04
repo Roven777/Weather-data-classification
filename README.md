@@ -1,5 +1,5 @@
 # Weather-data-classification
-The weather data classification is prediction application which is designed to classify the humidity level. It uses the machine learning, specifically a decision Tree Classifier, predicts the humidity and 3pm 
+The weather data classification is prediction application which is designed to classify the humidity level. It uses the machine learning, specifically a decision Tree Classifier, predicts the humidity and 3pm is greater than 25% (high humidity) or less than 25% (low humidity)
 
 ## 1. Data Loading and Preprocessing
 - The project starts by loading a CSV file (daily_weather.csv) which contains daily weather data.

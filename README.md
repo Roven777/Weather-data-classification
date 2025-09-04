@@ -17,7 +17,7 @@ After training, the model is evaluated on the test set (x_test and y_test), and 
 
 The project also generates and displays a confusion matrix to provide insight into the performance of the model by showing the actual vs predicted classifications.
 
-4. User Interface (Streamlit)
+## 4. User Interface (Streamlit and also injected CSS for better styling)
 
 - The app provides an interactive interface using Streamlit where users can input different weather parameters:
    - Air Pressure at 9 AM

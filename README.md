@@ -1,4 +1,14 @@
 # Weather-data-classification
+
+## Live Demo
+[Click here to try it out](weather-data-classificationgit-qetq5udwd2onkfd7zs6led.streamlit.app)
+
+## Features
+- Input weather parameters interactively
+- Predict humidity class using Decision Tree
+- Built with Streamlit and scikit-learn
+
+
 The weather data classification is prediction application which is designed to classify the humidity level. It uses the machine learning, specifically a decision Tree Classifier, predicts the humidity and 3pm is greater than 25% (high humidity) or less than 25% (low humidity)
 
 ## 1. Data Loading and Preprocessing

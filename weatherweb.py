@@ -3,34 +3,19 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 import joblib
 import streamlit as st
-import base64
 
-
-# Function to convert image to base64
-def get_base64_of_bin_file(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-# Give FULL PATH of your image
-img_path = r"C:\Users\krove\Downloads\1.jpg"  # 👈 change this
-
-bin_str = get_base64_of_bin_file(img_path)
-
-# Inject CSS
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] {{
-    background-image: url("data:image/png;base64,{bin_str}");
-    background-size: cover;
-    background-attachment: fixed;
-    
-}}
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://c1.wallpaperflare.com/preview/830/920/873/night-stars-sky-dark.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # Load and clean data

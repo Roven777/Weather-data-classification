@@ -32,19 +32,15 @@ The project also generates and displays a confusion matrix to provide insight in
 
 - Once the user enters these parameters, they can click a button to get a prediction of whether the humidity at 3 PM is above or below 25%.
 
-5. Prediction and Output
+## 5. Prediction and Output
+- Upon clicking the "Predict Humidity Class" button, the model predicts whether the humidity is high (greater than 25%) or low (less than or equal to 25%) based on the input parameters.
+- The prediction result is displayed on the Streamlit interface, either confirming a high or low humidity prediction.
 
-Upon clicking the "Predict Humidity Class" button, the model predicts whether the humidity is high (greater than 25%) or low (less than or equal to 25%) based on the input parameters.
+## 6. Visualization
+- A scatter plot is shown comparing the actual vs predicted humidity class values.
+- A confusion matrix is also presented, which shows the model’s performance across all test samples (true positives, true negatives, false positives, and false negatives).
 
-The prediction result is displayed on the Streamlit interface, either confirming a high or low humidity prediction.
-
-6. Visualization
-
-A scatter plot is shown comparing the actual vs predicted humidity class values.
-
-A confusion matrix is also presented, which shows the model’s performance across all test samples (true positives, true negatives, false positives, and false negatives).
-
-Technologies and Libraries Used:
+## Technologies and Libraries Used:
 
 Pandas: For data handling and preprocessing.
 
@@ -56,6 +52,6 @@ Joblib: To save and load the trained model.
 
 Matplotlib: For plotting the actual vs predicted values and the confusion matrix.
 
-Conclusion:
+## Conclusion:
 
 This project is a simple but effective way to predict the humidity of a given day based on weather data, making it useful for understanding weather patterns or integrating into applications that require this kind of weather classification.
